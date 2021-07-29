@@ -1,0 +1,41 @@
+* {
+  font-family: 'Vardana', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+h1 {
+  color:
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1876f2;
+  padding: 5px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+input[name=content] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+.right {
+  margin-left: 85%;
+}
